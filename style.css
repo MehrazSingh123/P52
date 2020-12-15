@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-weight:400;
+    color: white;
+}
+
+.header {
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.bodyImg {
+    width: "100%";
+    margin-left: -8px;
+    margin-right: -8px;
+    color: white;
+    font-family: 'sofia';
+    font-size: 20px;
+    cursor: context-menu;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(102, 255, 0);
+    transition: width 2s;
+}
+
+a:visited{
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: "sofia";
+    margin-top: 30px;
+    cursor: context-menu;
+}
+ 
+p {
+    cursor: context-menu;
+}
+
+ol {
+    cursor: context-menu;
+}
